@@ -220,7 +220,7 @@ def Download():
 
     # from the
 
-    videoStream = getVideo.streams.first()
+    videoStream = getVideo.streams.last()
  
 
     # Downloading the video to destination
