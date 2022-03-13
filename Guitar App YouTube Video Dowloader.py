@@ -220,7 +220,7 @@ def Download():
 
     # from the
 
-    videoStream = getVideo.streams.last()
+    videoStream = getVideo.streams.get_highest_resolution() 
  
 
     # Downloading the video to destination
